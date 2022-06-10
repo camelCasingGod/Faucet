@@ -1,5 +1,5 @@
-const HephaestusContract = artifacts.require("Faucet")
+const Faucet = artifacts.require("Faucet")
 
 module.exports = function (deployer) {
-    deployer.deploy(HephaestusContract)
+    deployer.deploy(Faucet)
 }
